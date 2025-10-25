@@ -72,7 +72,7 @@ async function fixRelativeImagePaths(
               format: 'webp',
               width: 800
             })
-            
+
             // Always use the optimized image path in production
             img.setAttribute('src', new URL(processedImage.src, baseUrl).toString())
           }
@@ -110,7 +110,7 @@ async function generateFeedInstance(context: APIContext) {
     language: language,
     copyright: `Copyright © ${new Date().getFullYear()} ${author}`,
     updated: new Date(),
-    generator: 'Astro Chiri Feed Generator',
+    generator: 'HaloAdit Feed Generator',
     feedLinks: {
       rss: `${siteUrl}/rss.xml`,
       atom: `${siteUrl}/atom.xml`
