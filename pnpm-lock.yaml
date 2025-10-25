@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@astrojs/mdx':
-        specifier: ^4.3.7
-        version: 4.3.7(astro@5.14.6(@netlify/blobs@10.1.0)(@types/node@24.8.1)(jiti@2.6.1)(rollup@4.52.5)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.8.1))
+        specifier: ^4.3.8
+        version: 4.3.8(astro@5.14.6(@netlify/blobs@10.1.0)(@types/node@24.8.1)(jiti@2.6.1)(rollup@4.52.5)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.8.1))
       '@astrojs/netlify':
         specifier: ^6.5.13
         version: 6.5.13(@types/node@24.8.1)(astro@5.14.6(@netlify/blobs@10.1.0)(@types/node@24.8.1)(jiti@2.6.1)(rollup@4.52.5)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.8.1))(jiti@2.6.1)(rollup@4.52.5)(tsx@4.20.6)(yaml@2.8.1)
@@ -123,8 +123,8 @@ packages:
   '@astrojs/markdown-remark@6.3.8':
     resolution: {integrity: sha512-uFNyFWadnULWK2cOw4n0hLKeu+xaVWeuECdP10cQ3K2fkybtTlhb7J7TcScdjmS8Yps7oje9S/ehYMfZrhrgCg==}
 
-  '@astrojs/mdx@4.3.7':
-    resolution: {integrity: sha512-5SRmvMyT/UMWaU2eoD+htnXtE2mUZZEH2K/nEzhuEy+iCsOSuS/DUry59WuKUJRQETi1mgJFdNR4dZLJHYVuRA==}
+  '@astrojs/mdx@4.3.8':
+    resolution: {integrity: sha512-PXT0n2FfZAWEmQi4u4AZ0OPDDrDIF+aXPZGT5HCf52dex5EV3htMByeJUqYIoXdmazAFTASub0vRZLWBqJhJ9w==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0}
     peerDependencies:
       astro: ^5.0.0
@@ -3453,6 +3453,7 @@ packages:
   sitemap@8.0.0:
     resolution: {integrity: sha512-+AbdxhM9kJsHtruUF39bwS/B0Fytw6Fr1o4ZAIAEqA6cke2xcoO2GleBw9Zw7nRzILVEgz7zBM5GiTJjie1G9A==}
     engines: {node: '>=14.0.0', npm: '>=6.0.0'}
+    deprecated: 'SECURITY: Multiple vulnerabilities fixed in 8.0.1 (XML injection, path traversal, command injection, protocol injection). Upgrade immediately: npm install sitemap@8.0.1'
     hasBin: true
 
   slashes@3.0.12:
@@ -4060,7 +4061,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.3.7(astro@5.14.6(@netlify/blobs@10.1.0)(@types/node@24.8.1)(jiti@2.6.1)(rollup@4.52.5)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.8.1))':
+  '@astrojs/mdx@4.3.8(astro@5.14.6(@netlify/blobs@10.1.0)(@types/node@24.8.1)(jiti@2.6.1)(rollup@4.52.5)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.8.1))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.8
       '@mdx-js/mdx': 3.1.1
@@ -4069,7 +4070,7 @@ snapshots:
       es-module-lexer: 1.7.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
-      kleur: 4.1.5
+      picocolors: 1.1.1
       rehype-raw: 7.0.0
       remark-gfm: 4.0.1
       remark-smartypants: 3.0.2
