@@ -15,7 +15,7 @@ export const themeConfig: ThemeConfig = {
     contentWidth: '35rem', // Content area width
     centeredLayout: true, // Use centered layout (false for left-aligned)
     themeToggle: true, // Show theme toggle button (uses system theme by default)
-    postListDottedDivider: false, // Show dotted divider in post list
+    postListDottedDivider: true, // Show dotted divider in post list
     footer: true, // Show footer
     fadeAnimation: true // Enable fade animations
   },
@@ -23,7 +23,7 @@ export const themeConfig: ThemeConfig = {
   // DATE SETTINGS ///////////////////////////////////////////////////////////////////////////////////////
   date: {
     dateFormat: 'YYYY-MM-DD', // Date format: YYYY-MM-DD, MM-DD-YYYY, DD-MM-YYYY, MONTH DAY YYYY, DAY MONTH YYYY
-    dateSeparator: '.', // Date separator: . - / (except for MONTH DAY YYYY and DAY MONTH YYYY)
+    dateSeparator: '-', // Date separator: . - / (except for MONTH DAY YYYY and DAY MONTH YYYY)
     dateOnRight: true // Date position in post list (true for right, false for left)
   },
 

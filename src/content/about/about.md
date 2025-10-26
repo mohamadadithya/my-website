@@ -1,16 +1,5 @@
----
-title: 'About'
----
+I enjoy building thoughtful and human centered experiences for the web. My work blends design interaction and a bit of storytelling turning small ideas into something that feels alive and useful.
 
-<!--
-This content will be displayed at the top of the index page.
-You can leave this empty if you don’t want to show any content.
--->
+Based in Jakarta I spend most of my time creating learning and exploring how creativity and structure can coexist in code. Outside the screen I find inspiration in music films and slow walks that clear my mind.
 
-A static blog theme based on [Astro](https://astro.build), designed for clarity and focus.
-
-With a deliberately minimal design, this layout ensures your content takes center stage. It's built for flexibility, offering customization options that honor its clean and elegant aesthetic.
-
-Effortlessly share your thoughts in _a calm & dustless space._
-
-Check posts for details and view source on [GitHub](https://github.com/the3ash/astro-chiri).
+If you’re around Jakarta let’s grab a ☕️ (coffee) or 💬 (chat) about creative ideas or feel free to reach out on <a href="https://github.com/mohamadadithya" target="_blank" rel="noopener noreferrer"><strong>Github</strong></a> or <a href="https://linkedin.com/in/mohamadadithya" target="_blank" rel="noopener noreferrer"><strong>LinkedIn</strong></a>.
