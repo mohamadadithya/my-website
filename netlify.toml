@@ -12,8 +12,7 @@
   from = "/writings"
   to = "/"
   status = 301
-  force = false
-  query = {path = ":path"}
+  force = true
 
 # Enable Brotli Compression
 [build.processing]
