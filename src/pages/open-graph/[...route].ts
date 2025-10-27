@@ -18,7 +18,7 @@ export const { getStaticPaths, GET } = OGImageRoute({
     title: page.title,
     description: themeConfig.site.title,
     logo: {
-      path: 'public/og/og-logo.png',
+      path: 'public/apple-touch-icon.png',
       size: [80, 80]
     },
     bgGradient: [[255, 255, 255]],
@@ -26,7 +26,7 @@ export const { getStaticPaths, GET } = OGImageRoute({
       path: 'public/og/og-bg.png',
       fit: 'fill'
     },
-    padding: 64,
+    padding: 72,
     font: {
       title: {
         color: [28, 28, 28],
@@ -43,7 +43,7 @@ export const { getStaticPaths, GET } = OGImageRoute({
     },
     fonts: [
       'https://cdn.jsdelivr.net/npm/font-pingfang-sc-font-weight-improved@latest/PingFangSC-Medium.woff2',
-      'https://cdn.jsdelivr.net/npm/font-pingfang-sc-font-weight-improved@latest/PingFangSC-Semibold.woff2',
+      'https://cdn.jsdelivr.net/npm/font-pingfang-sc-font-weight-improved@latest/PingFangSC-Semibold.woff2'
     ]
   })
 })
