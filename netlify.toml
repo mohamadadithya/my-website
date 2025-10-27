@@ -8,6 +8,13 @@
   to = "/_astro/:splat"
   status = 200
 
+[[redirects]]
+  from = "/writings"
+  to = "/"
+  status = 301
+  force = false
+  query = {path = ":path"}
+
 # Enable Brotli Compression
 [build.processing]
   skip_processing = false
@@ -100,10 +107,3 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
     Vary = "Accept-Encoding"
-
-
-
-
-
-
-
