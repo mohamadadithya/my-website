@@ -5,10 +5,29 @@ import ThemeToggle from '@/components/ui/ThemeToggle.astro'
 
 <header>
   <nav>
-    <a href="/">{themeConfig.site.title}</a>
+    <div class="brand">
+      <img src="/favicon.png" decoding="async" loading="eager" alt={themeConfig.site.title} />
+      <a href="/">{themeConfig.site.title}</a>
+    </div>
     <ThemeToggle />
   </nav>
 </header>
+
+<script is:inline>
+  document.addEventListener('themechange', (event) => {
+    const brandLogoEl = document.querySelector('.brand img')
+
+    if (!brandLogoEl) return
+
+    const src = {
+      dark: '/favicon.png',
+      light: '/apple-touch-icon.png'
+    }
+
+    brandLogoEl.src = src[event.detail.theme]
+  })
+</script>
+
 <style>
   header {
     margin: 0;
@@ -18,12 +37,22 @@ import ThemeToggle from '@/components/ui/ThemeToggle.astro'
     justify-content: space-between;
     align-items: center;
   }
-  header a {
+  header .brand {
+    display: flex;
+    align-items: center;
+  }
+  header .brand img {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.6rem;
+  }
+  header .brand a {
     font-size: var(--font-size-4);
     font-weight: var(--font-weight-6);
     color: var(--text-primary);
     text-decoration: none;
     min-width: 3rem;
     display: inline-block;
+    flex: 1;
   }
 </style>
