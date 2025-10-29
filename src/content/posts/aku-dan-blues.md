@@ -1,5 +1,6 @@
 ---
 title: Aku dan Musik Blues
+description: Cerita pribadi tentang perjalananku menemukan ketenangan lewat musik blues — melodi jujur yang mengajarkan rasa, hidup, dan keikhlasan.
 pubDate: 2025-10-27
 ---
 
