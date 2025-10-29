@@ -6,7 +6,14 @@ import ThemeToggle from '@/components/ui/ThemeToggle.astro'
 <header>
   <nav>
     <div class="brand">
-      <img src="/favicon.png" decoding="async" loading="eager" alt={themeConfig.site.title} />
+      <img
+        src="/favicon.png"
+        width="40"
+        height="53"
+        decoding="async"
+        loading="eager"
+        alt={themeConfig.site.title}
+      />
       <a href="/">{themeConfig.site.title}</a>
     </div>
     <ThemeToggle />
@@ -42,10 +49,7 @@ import ThemeToggle from '@/components/ui/ThemeToggle.astro'
     align-items: center;
   }
   header .brand img {
-    width: 2.5rem;
-    height: 2.5rem;
     margin-right: 0.6rem;
-    aspect-ratio: 1 / 1;
   }
   header .brand a {
     font-size: var(--font-size-3);

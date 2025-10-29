@@ -27,7 +27,7 @@
   /* Light Mode Colors (Default) */
   --bg: #ffffff;
   --text-primary: rgba(0, 0, 0, 0.85);
-  --text-secondary: rgba(0, 0, 0, 0.4);
+  --text-secondary: rgba(0, 0, 0, 0.65);
   --text-tertiary: rgba(0, 0, 0, 0.24);
   --border: rgba(0, 0, 0, 0.1);
   --selection: rgba(0, 0, 0, 0.08);
@@ -77,7 +77,7 @@ html.light {
 html.dark {
   --bg: #1c1c1c;
   --text-primary: rgba(255, 255, 255, 0.9);
-  --text-secondary: rgba(255, 255, 255, 0.4);
+  --text-secondary: rgba(255, 255, 255, 0.65);
   --text-tertiary: rgba(255, 255, 255, 0.24);
   --border: rgba(255, 255, 255, 0.1);
   --selection: rgba(255, 255, 255, 0.08);
