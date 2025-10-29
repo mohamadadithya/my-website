@@ -6,7 +6,7 @@ pubDate: 2025-10-27
 Musik selalu jadi bagian penting dalam hidupku. Rasanya kayak temen lama yang selalu muncul di setiap momen — nemenin pas lagi senang, ngelus pundak pas lagi jatuh, atau sekadar ngisi sunyi waktu malam.
 Dari melodi dan lirik, aku sering nemuin hal-hal yang susah dijelasin: tentang cinta, kehilangan, dan hal-hal kecil yang bikin hidup terasa lebih manusiawi — bahkan kadang, aku nemuin cerita tentang sejarah atau mitologi di balik liriknya.
 
-Dari kecil, rumahku nggak pernah sepi dari musik. Papaku sering muter lagu lagu dari **The Beatles**, **The Rolling Stones**, dan **Eric Clapton**, dll. Dari situ aku mulai jatuh cinta dengan suara gitar, harmoni yang nyantol di kepala, dan distorsi yang entah kenapa terasa natural banget.
+Dari kecil, rumahku nggak pernah sepi dari musik. Papaku sering muter lagu lagu dari **The Beatles**, **The Rolling Stones**, **Eric Clapton**, dll. Dari situ aku mulai jatuh cinta dengan suara gitar, harmoni yang nyantol di kepala, dan distorsi yang entah kenapa terasa natural banget.
 
 Tapi semua itu akhirnya mengarahkanku ke satu akar: **Blues**.
 Awalnya cuma rasa penasaran kecil, sampai akhirnya aku beneran ngerasa “klik”
