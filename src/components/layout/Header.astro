@@ -21,9 +21,8 @@ import ThemeToggle from '@/components/ui/ThemeToggle.astro'
 </header>
 
 <script is:inline>
-  document.addEventListener('themechange', (event) => {
+  function adjustBrandLogo(theme) {
     const brandLogoEl = document.querySelector('.brand img')
-
     if (!brandLogoEl) return
 
     const src = {
@@ -31,8 +30,18 @@ import ThemeToggle from '@/components/ui/ThemeToggle.astro'
       light: '/apple-touch-icon.png'
     }
 
-    brandLogoEl.src = src[event.detail.theme]
-  })
+    brandLogoEl.src = src[theme]
+  }
+
+  function initAdaptiveBrandLogo() {
+    const theme = window.ThemeManager.getEffectiveTheme()
+    adjustBrandLogo(theme)
+  }
+
+  document.addEventListener('themechange', (event) => adjustBrandLogo(event.detail.theme))
+  document.addEventListener('astro:before-preparation', initAdaptiveBrandLogo)
+
+  initAdaptiveBrandLogo()
 </script>
 
 <style>
