@@ -16,6 +16,8 @@ Pertama Kali Dengerin Blues
 
 Aku masih inget banget waktu itu. Lagi buka Spotify, tiba-tiba muncul rekomendasi lagu Albert King – Born Under A Bad Sign. Karena penasaran, aku langsung pencet play. Begitu bagian gitarnya mulai, aku langsung diem. Gitar itu kayak ngomong, pelan, jujur, tapi dalam. Nggak buru-buru, nggak pamer teknik, tapi penuh perasaan.
 
+::spotify{url="https://open.spotify.com/track/0vDn81gdOuRxjbIwcASuiV?si=7ca22340e29f4637"}
+
 Habis itu aku mulai dengerin Robert Johnson, Muddy Waters, Howlin Wolf, dan nama-nama lain yang belum pernah kudengar. Dari mereka aku belajar satu hal, blues nggak berusaha nutupin luka, tapi malah peluk luka itu.
 
 Musik Yang Kaya Metafora
@@ -23,8 +25,10 @@ Musik Yang Kaya Metafora
 Yang bikin aku makin suka, blues punya cara ngomong yang unik banget.
 Kayak lirik legendaris ini:
 
-> “Now you can squeeze my lemon ‘til the juice run down my leg.”
-> Robert Johnson
+> “Now you can squeeze my lemon ‘til the juice run down my leg.”<br>
+> — *Robert Johnson*
+
+::spotify{url="https://open.spotify.com/track/3pS6HIZimRIBMrQU6vRfpp?si=32d71b0794e24017"}
 
 Pas pertama kali denger lirik itu, aku malah bengong. “Kenapa lemon?” pikirku.
 Rasanya aneh, bahkan sedikit absurd. Tapi karena penasaran, aku akhirnya nyari artinya, sampai nemu sebuah diskusi di Reddit yang ngebahas konteks lirik itu lebih dalam.
@@ -50,5 +54,5 @@ Setiap kali hari terasa berat, aku bakal muter A Hard Road atau The Thrill Is Go
 Terkadang yang kita butuhin bukan solusi, tapi lagu yang ngerti rasanya.
 Dan selama masih ada musik kayak blues, aku tahu aku nggak sendiri.
 
-> “If you ain’t got the blues, you ain’t got life.”
-> John Lee Hooker
+> “If you ain’t got the blues, you ain’t got life.”<br>
+> — *John Lee Hooker*
