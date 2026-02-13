@@ -1,5 +1,5 @@
 ---
-title: "Tutorial Lengkap PNPM 2026: Cara Install di Windows, Mac, & Linux"
+title: "Tutorial Lengkap Install PNPM di Windows, Mac, & Linux"
 description: Folder project isinya sampah duplikat? Itu dosa masa lalu. Ikuti tutorial teknis ini buat gantiin NPM biar coding makin ngebut dan storage lega.
 pubDate: '2026-02-13'
 ---
